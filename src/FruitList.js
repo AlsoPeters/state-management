@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import Fruit from './Fruit';
-import FruitContext from './FruitContext';
+import { FruitContext } from './FruitContext';
 
 const FruitList = () => {
   const [fruits, setFruits] = useContext(FruitContext);

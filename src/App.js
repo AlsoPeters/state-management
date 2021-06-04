@@ -1,6 +1,7 @@
 import './App.css';
-import FruitList from './FruitList';
 import Nav from './Nav';
+import FruitList from './FruitList';
+import AddMovie from './AddMovie';
 import { FruitProvider } from './FruitContext';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <FruitProvider>
       <div className='App'>
         <Nav />
+        <AddMovie />
         <FruitList />
       </div>
     </FruitProvider>
